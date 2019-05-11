@@ -106,8 +106,8 @@ def plot_reg(X, y, beta):
 
 if __name__ == "__main__":
     # load the dataset
-    #dataset = loadCSV('dataset_exampleLR.csv')
-    dataset = loadCSV('data_newtypes_int.csv')
+    dataset = loadCSV('dataset_exampleLR.csv')
+    #dataset = loadCSV('data_newtypes_int.csv')
     # normalizing feature matrix
     X = normalize(dataset[:, :-1])
 
